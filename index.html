@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Wawa</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5f8;
+            color: #59434d;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #f8c8dc;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .hiasan {
+            font-size: 30px;
+        }
+
+        header h1 {
+            color: #a34770;
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+        header p {
+            margin: 8px 0;
+        }
+
+        .tombol {
+            display: inline-block;
+            background-color: #c96e98;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-top: 12px;
+        }
+
+        nav {
+            background-color: #e9a9c5;
+            padding: 13px 8px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #69354d;
+            text-decoration: none;
+            margin: 4px 9px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .pembungkus {
+            max-width: 850px;
+            margin: auto;
+            padding: 12px;
+        }
+
+        section {
+            background-color: white;
+            border: 1px solid #f2d5e1;
+            border-radius: 16px;
+            padding: 22px;
+            margin: 20px 0;
+            box-shadow: 0 3px 10px #e9b8cb55;
+        }
+
+        h2 {
+            color: #b65f87;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #9b5375;
+            margin-bottom: 5px;
+        }
+
+        .kartu {
+            background-color: #fff4f8;
+            border-left: 4px solid #e9a9c5;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin: 12px 0;
+        }
+
+        .label {
+            display: inline-block;
+            background-color: #fbe0eb;
+            color: #934c6c;
+            border-radius: 15px;
+            padding: 5px 12px;
+            margin: 4px;
+            font-size: 13px;
+        }
+
+        footer {
+            background-color: #f8c8dc;
+            text-align: center;
+            padding: 22px 12px;
+            color: #75465b;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            nav a {
+                margin: 4px 6px;
+                font-size: 12px;
+            }
+
+            section {
+                padding: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BERANDA -->
+    <header id="beranda">
+        <div class="hiasan">🎀 🌷 🩷 🌷 🎀</div>
+        <p>WELCOME TO MY LITTLE SPACE</p>
+        <h1>Halo semuanya!</h1>
+        <h2>Perkenalkan, aku Wawa ♡</h2>
+        <p>Najwa Khairani Arifin Tumanggor</p>
+        <p>Mahasiswa PG-PAUD | Universitas Negeri Medan</p>
+        <p>
+            Website kecil ini berisi cerita tentang diriku,
+            kemampuan, karya, dan pengalaman yang pernah kuikuti.
+        </p>
+        <a class="tombol" href="#tentang">Kenalan Yuk! ♡</a>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#kemampuan">Kemampuan</a>
+        <a href="#karya">Karya & Proyek</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main class="pembungkus">
+
+        <!-- TENTANG SAYA -->
+        <section id="tentang">
+            <h2>🌸 Tentang Saya</h2>
+            <p>
+                Halo! Namaku Najwa Khairani Arifin Tumanggor,
+                biasa dipanggil Wawa. Aku merupakan mahasiswa
+                S1 Pendidikan Guru Pendidikan Anak Usia Dini
+                (PG-PAUD) di Universitas Negeri Medan.
+            </p>
+            <p>
+                Aku tertarik pada dunia pendidikan dan perkembangan
+                anak usia dini. Aku senang mempelajari hal baru,
+                bekerja sama dengan orang lain, dan mengembangkan
+                kemampuan melalui berbagai pengalaman.
+            </p>
+            <p>
+                Bagiku, setiap pengalaman adalah kesempatan untuk
+                belajar menjadi pribadi yang lebih baik.
+            </p>
+
+            <div class="kartu">
+                <h3>🎓 Pendidikan</h3>
+                <p>Universitas Negeri Medan (UNIMED)</p>
+                <p>S1 Pendidikan Guru Pendidikan Anak Usia Dini (PG-PAUD)</p>
+                <p>Status: Mahasiswa aktif</p>
+            </div>
+
+            <div class="kartu">
+                <h3>🩷 Minat</h3>
+                <p>
+                    Pendidikan anak usia dini, perkembangan anak,
+                    kegiatan kreatif, dan media pembelajaran.
+                </p>
+            </div>
+        </section>
+
+        <!-- KEMAMPUAN -->
+        <section id="kemampuan">
+            <h2>✨ Kemampuan</h2>
+            <p>
+                Beberapa kemampuan yang aku miliki dan terus
+                ingin aku kembangkan:
+            </p>
+            <span class="label">Kerja sama tim</span>
+            <span class="label">Komunikasi</span>
+            <span class="label">Kreativitas</span>
+            <span class="label">Membimbing tari</span>
+            <span class="label">Teknologi digital dasar</span>
+            <span class="label">Ide kegiatan PAUD</span>
+
+            <div class="kartu">
+                <h3>🌷 Bahasa</h3>
+                <p>Bahasa Indonesia</p>
+                <p>Bahasa Inggris tingkat dasar</p>
+            </div>
+        </section>
+
+        <!-- KARYA DAN PROYEK -->
+        <section id="karya">
+            <h2>🎨 Karya dan Proyek</h2>
+            <p>
+                Bagian ini berisi karya dan kegiatan yang aku
+                kerjakan selama perkuliahan maupun kegiatan lainnya.
+            </p>
+
+            <div class="kartu">
+                <h3>📚 Modul Ajar / RPPH PAUD</h3>
+                <p>
+                    Penyusunan rancangan kegiatan pembelajaran
+                    anak usia dini sesuai tema dan usia anak.
+                </p>
+                <p><i>Dokumentasi karya dapat ditambahkan di sini.</i></p>
+            </div>
+
+            <div class="kartu">
+                <h3>🧸 Media Pembelajaran PAUD</h3>
+                <p>
+                    Karya atau ide media pembelajaran untuk
+                    mendukung kegiatan belajar anak usia dini.
+                </p>
+                <p><i>Tambahkan foto atau contoh media yang kamu buat.</i></p>
+            </div>
+
+            <div class="kartu">
+                <h3>🎬 Video Edukasi Kesehatan NCAST 2026</h3>
+                <p>
+                    Mengikuti lomba video edukasi kesehatan NCAST
+                    dan memperoleh penghargaan Harapan III.
+                </p>
+            </div>
+        </section>
+
+        <!-- PENGALAMAN -->
+        <section id="pengalaman">
+            <h2>🌷 Pengalaman</h2>
+
+            <div class="kartu">
+                <h3>🏫 Magang — TK Balita Schooling</h3>
+                <p>
+                    Mengikuti kegiatan magang selama tiga bulan
+                    dengan total 16 kali pertemuan untuk mengenal
+                    lingkungan dan kegiatan pembelajaran PAUD.
+                </p>
+            </div>
+
+            <div class="kartu">
+                <h3>💃 Guru Tari — SMP Swasta Al Wasliyah 4 (2026)</h3>
+                <p>
+                    Membimbing siswa dalam latihan tari dan
+                    membantu mereka mempelajari serta menghafal
+                    gerakan untuk penampilan sekolah.
+                </p>
+            </div>
+
+            <div class="kartu">
+                <h3>🥟 Staf Dimsum (Juni 2025)</h3>
+                <p>
+                    Membantu operasional, melayani pelanggan,
+                    menangani pesanan, dan menjaga kebersihan
+                    tempat kerja.
+                </p>
+            </div>
+
+            <div class="kartu">
+                <h3>⛺ Anggota Pramuka UNIMED</h3>
+                <p>
+                    Mengikuti kegiatan kepramukaan dan belajar
+                    mengenai tanggung jawab serta kerja sama.
+                </p>
+            </div>
+        </section>
+
+        <!-- KONTAK -->
+        <section id="kontak">
+            <h2>💌 Kontak</h2>
+            <p>
+                Terima kasih sudah mengunjungi website portofolioku!
+                Aku senang bisa berbagi cerita tentang proses belajar
+                dan pengalamanku.
+            </p>
+            <p>
+                Untuk keperluan akademik atau kolaborasi, kamu bisa
+                menambahkan alamat email atau akun media sosial
+                yang ingin kamu bagikan di bagian ini.
+            </p>
+            <p>Semoga kita bisa terus belajar dan berkembang bersama ♡</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>♡ Dibuat dengan sepenuh hati oleh Wawa ♡</p>
+        <p>Portofolio Pribadi | 2026</p>
+    </footer>
+
+</body>
+</html>
